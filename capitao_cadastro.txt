@@ -1,0 +1,2 @@
+Curso: info, Nome Completo: mariaa, E-mail: erds@, Número de Matrícula: 23245, Data de nascimento: 12/05/2006, Número da camisa: 18
+Curso: aletro, Nome Completo: marvi, E-mail: er@gmail.com, Número de Matrícula: 23435, Data de nascimento: 32/6/96, Número da camisa: 15

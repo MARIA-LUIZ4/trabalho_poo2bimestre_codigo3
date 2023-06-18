@@ -1,0 +1,2 @@
+Nome Completo: mar, Curso: info, E-mail: re@, Numero de Matricula: 2335446, Data de Nascimento: 23/05/200, Número da camisa: 12
+Nome Completo: reu, Curso: aletro, E-mail: ar@g, Numero de Matricula: 2358, Data de Nascimento: 12/84, Número da camisa: 26
