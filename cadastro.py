@@ -29,12 +29,12 @@ def obter_lista_membros():
   except FileNotFoundError:
     return []
 
+
 def cadastrar_capitao(curso_capitao, nome_capitao, email_capitao, num_matricula_capitao, data_nascimento_capitao,num_camisa_capitao):
     with open("capitao_cadastro.txt", "a", encoding="utf-8") as arquivo:
         arquivo.write(f"Curso: {curso_capitao}, Nome Completo: {nome_capitao}, E-mail: {email_capitao}, Número de Matrícula: {num_matricula_capitao}, Data de nascimento: {data_nascimento_capitao}, Número da camisa: {num_camisa_capitao}\n")
     lista_membros = obter_lista_membros()
     membros_por_curso = {}
-
 
     for membro in lista_membros:
         curso_membro = membro['Curso']
@@ -101,11 +101,9 @@ def cadastrar_capitao(curso_capitao, nome_capitao, email_capitao, num_matricula_
         print("Ocorreu um erro ao enviar o email de confirmação:", str(e))
 
 
-
 def cadastrar_aluno(nome_aluno,curso_aluno, email_aluno, num_matricula_aluno, data_nascimento_aluno, num_camisa_aluno):
   with open("alunos_cadastrados.txt", "a", encoding="utf-8") as arquivo:
     arquivo.write(f"Nome Completo: {nome_aluno}, Curso: {curso_aluno}, E-mail: {email_aluno}, Numero de Matricula: {num_matricula_aluno}, Data de Nascimento: {data_nascimento_aluno}, Número da camisa: {num_camisa_aluno}\n")
-
 
 
 def exibir_cadastro():
@@ -113,8 +111,6 @@ def exibir_cadastro():
     linhas = arquivo.readlines()
     for linha in linhas:
       print(linha.rstrip())
-
-
 
 
 def exibir_cadastro2():
